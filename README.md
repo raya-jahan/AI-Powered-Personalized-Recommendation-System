@@ -18,15 +18,6 @@ User A might rate "Movie X" as 5/5 and "Movie Y" as 4/5.
 User B might rate "Movie X" as 4/5 and "Movie Z" as 5/5.
 The system stores all these interactions in a table, where rows represent users and columns represent items.
 
-Example Table:
-+---------+---------+---------+---------+
-| User ID | Movie X | Movie Y | Movie Z |
-+---------+---------+---------+---------+
-|    A    |    5    |    4    |    ?    |
-|    B    |    4    |    ?    |    5    |
-+---------+---------+---------+---------+
-(The ? means the user hasn't interacted with that item yet.)
-
 Making Predictions with Collaborative Filtering
 Collaborative Filtering works by analyzing the behavior of all users to find patterns. It uses two key approaches:
 
